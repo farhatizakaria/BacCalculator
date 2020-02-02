@@ -38,7 +38,6 @@
             this.MoyGroup = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.labelResult = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.MoyGroup.SuspendLayout();
             this.SuspendLayout();
@@ -117,7 +116,6 @@
             this.MoyGroup.BackColor = System.Drawing.Color.Teal;
             this.MoyGroup.Controls.Add(this.labelResult);
             this.MoyGroup.Controls.Add(this.button1);
-            this.MoyGroup.Controls.Add(this.label6);
             this.MoyGroup.Controls.Add(this.textBoxCC);
             this.MoyGroup.Controls.Add(this.label5);
             this.MoyGroup.Controls.Add(this.textBoxRE);
@@ -139,7 +137,7 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(223, 153);
+            this.button1.Location = new System.Drawing.Point(16, 154);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 32);
             this.button1.TabIndex = 10;
@@ -150,31 +148,22 @@
             // labelResult
             // 
             this.labelResult.AutoSize = true;
-            this.labelResult.Location = new System.Drawing.Point(233, 205);
+            this.labelResult.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelResult.ForeColor = System.Drawing.Color.LightGreen;
+            this.labelResult.Location = new System.Drawing.Point(173, 145);
             this.labelResult.Name = "labelResult";
-            this.labelResult.Size = new System.Drawing.Size(88, 18);
+            this.labelResult.Size = new System.Drawing.Size(149, 38);
             this.labelResult.TabIndex = 10;
             this.labelResult.Text = "The result";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(12, 157);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 22);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Calculate";
             // 
             // bunifuCustomLabel1
             // 
             this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Forte", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Salmon;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(220, 27);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(150, 22);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(164, 21);
             this.bunifuCustomLabel1.TabIndex = 10;
             this.bunifuCustomLabel1.Text = "BAC CALCULATOR";
             // 
@@ -214,7 +203,6 @@
         private System.Windows.Forms.GroupBox MoyGroup;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label labelResult;
-        private System.Windows.Forms.Label label6;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
     }
 }
